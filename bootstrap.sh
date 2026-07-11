@@ -13,6 +13,7 @@ kubectl apply -f .infrastructure/app/configMap.yml
 kubectl apply -f .infrastructure/app/clusterIp.yml
 kubectl apply -f .infrastructure/app/nodeport.yml
 kubectl apply -f .infrastructure/app/hpa.yml
+kubectl apply -f .infrastructure/security/rbac.yml
 kubectl apply -f .infrastructure/app/deployment.yml
 
 # Install Ingress Controller
